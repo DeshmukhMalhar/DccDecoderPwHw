@@ -1,0 +1,49 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Malhar_Deshmukh_Verified:6N137 U?
+U 1 1 5E53AF9F
+P 2900 2800
+F 0 "U?" H 3000 3150 50  0000 C CNN
+F 1 "6N137" H 2900 2800 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 3700 2750 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/84732/6n137.pdf" H 3700 2750 50  0001 C CNN
+	1    2900 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5E53BBCC
+P 2900 3200
+F 0 "#PWR?" H 2900 2950 50  0001 C CNN
+F 1 "GND" H 2905 3027 50  0000 C CNN
+F 2 "" H 2900 3200 50  0001 C CNN
+F 3 "" H 2900 3200 50  0001 C CNN
+	1    2900 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5E53C6E0
+P 3350 2500
+F 0 "R?" H 3409 2546 50  0000 L CNN
+F 1 "10K" H 3409 2455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" H 3350 2500 50  0001 C CNN
+F 3 "~" H 3350 2500 50  0001 C CNN
+	1    3350 2500
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
